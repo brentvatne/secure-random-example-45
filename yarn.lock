@@ -1057,10 +1057,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/cli@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.1.2.tgz#1529704ceb71bb0dc4dce67152132a965c6d54e9"
-  integrity sha512-64782oLUaepXK6aokbSWpzJfO4T+rjIRm1ppKKqbi4vAAZVVuazpQU2QWbw6rrjCFrZCu87ccZyidwQsKLViQg==
+"@expo/cli@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.1.3.tgz#3560080968f7e5aab3cbd01e8d913a5948e16162"
+  integrity sha512-RXFAj1HY2rZ2owJQhH2QHJ4IEIoH7FTdqG9bJvYKAl4j5UhpXke/hePK2HzNfPybtxHjztfVGR1D4/L2UBwsnw==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@expo/code-signing-certificates" "^0.0.2"
@@ -1101,6 +1101,7 @@
     node-forge "^1.3.1"
     npm-package-arg "^7.0.0"
     ora "3.4.0"
+    pretty-bytes "5.6.0"
     progress "2.0.3"
     prompts "^2.3.2"
     qrcode-terminal "0.11.0"
@@ -3029,13 +3030,13 @@ expo-status-bar@~1.3.0:
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.3.0.tgz#d71fd0b880ea201905f5dd8abcd18db7476c9f03"
   integrity sha512-UszYUsT8A8jSUebrXht095Iwv5VIdg61LPuyNNoC5gFP0E9G+8LgX68deqR4zhJOlbsgSH2cixxKhrGW+1HPZg==
 
-expo@~45.0.0-beta.4:
-  version "45.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-45.0.0-beta.8.tgz#9221949d7e41960cbb269dee7a1ab2d7a2649978"
-  integrity sha512-o/wxyG12owjniQHi79gQkdeezC+P0LRpZhkeWiSgmD9rnoPE+wfOWPPWfMvpfblxn7yftIQBWIRgGuVsWeBX+w==
+expo@~45.0.0-beta.9:
+  version "45.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-45.0.0-beta.9.tgz#ab1f75fdff220655ad3615c836617c7d41a8d0e8"
+  integrity sha512-zv9vaS2NDOrozWdo61vPEk+HjHB0MwZGx4FFzzA/S9YiJv4Hz+ykNmGJbSKNArD3a04iX6j8L2w3L6GleNQtaw==
   dependencies:
     "@babel/runtime" "^7.14.0"
-    "@expo/cli" "0.1.2"
+    "@expo/cli" "0.1.3"
     "@expo/vector-icons" "^13.0.0"
     babel-preset-expo "~9.1.0"
     cross-spawn "^6.0.5"
@@ -3053,6 +3054,7 @@ expo@~45.0.0-beta.4:
     md5-file "^3.2.3"
     node-fetch "^2.6.7"
     pretty-format "^26.5.2"
+    uuid "^3.4.0"
   optionalDependencies:
     expo-error-recovery "~3.1.0"
 
@@ -5164,6 +5166,11 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
+
+pretty-bytes@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
+  integrity sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==
 
 pretty-format@^26.5.2, pretty-format@^26.6.2:
   version "26.6.2"
